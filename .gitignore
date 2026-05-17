@@ -1,0 +1,17 @@
+# KiCad backup and lock files
+*-backups/
+*.lck
+*.bak
+*-cache.lib
+fp-info-cache
+
+# Auto-generated files
+*.kicad_prl
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build outputs (keep gerbers in fabrication/ committed if you want)
+build/
+*.zip
