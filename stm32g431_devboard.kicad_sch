@@ -1336,7 +1336,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32G4:STM32G431CBTx")
-		(at 149.86 82.55 0)
+		(at 223.52 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1346,8 +1346,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94124faf-7e80-45f8-85bb-b51f9ef47124")
-		(property "Reference" "U1"
-			(at 154.8463 123.19 0)
+		(property "Reference" "MCU"
+			(at 228.5063 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1358,7 +1358,7 @@
 			)
 		)
 		(property "Value" "STM32G431CBTx"
-			(at 154.8463 125.73 0)
+			(at 228.5063 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1369,7 +1369,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 134.62 120.65 0)
+			(at 208.28 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1381,7 +1381,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g431cb.pdf"
-			(at 149.86 82.55 0)
+			(at 223.52 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1392,7 +1392,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
-			(at 149.86 82.55 0)
+			(at 223.52 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1549,8 +1549,74 @@
 		(instances
 			(project "stm32g431_devboard"
 				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d"
-					(reference "U1")
+					(reference "MCU")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 73.66)
+		(size 39.37 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3a530241-5ab1-49dc-9d97-391d8d961ce9")
+		(property "Sheetname" "Power Supply"
+			(at 60.96 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 60.96 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 100.33 81.28 0)
+			(uuid "9766e4a9-e42e-471b-b020-878e416a5190")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 100.33 85.09 0)
+			(uuid "9ef24e9f-525b-4875-be98-e692da5500dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stm32g431_devboard"
+				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d"
+					(page "2")
 				)
 			)
 		)

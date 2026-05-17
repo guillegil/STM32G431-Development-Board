@@ -416,13 +416,17 @@
         "uuid": "9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "#FLG1-3,#PWR1-11,R1-3,C1-4,J1,U1",
     "variants": []
   },
   "sheets": [
     [
       "9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d",
       "Root"
+    ],
+    [
+      "3a530241-5ab1-49dc-9d97-391d8d961ce9",
+      "Power Supply"
     ]
   ],
   "text_variables": {
