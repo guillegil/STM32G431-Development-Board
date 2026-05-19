@@ -416,7 +416,7 @@
         "uuid": "9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d"
       }
     ],
-    "used_designators": "SW1-2,#FLG4,#PWR22-38,R5-6,J6-8,D3-4,C8-14",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,14 @@
     [
       "3a530241-5ab1-49dc-9d97-391d8d961ce9",
       "Power Supply"
+    ],
+    [
+      "11bbea66-da08-4779-897e-743110bf4caa",
+      "GPIO Breakout"
+    ],
+    [
+      "a5e1f530-8956-4151-8f59-48f85f3d1b34",
+      "MCU"
     ]
   ],
   "text_variables": {

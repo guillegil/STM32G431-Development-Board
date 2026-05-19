@@ -15,3 +15,13 @@ Thumbs.db
 # Build outputs (keep gerbers in fabrication/ committed if you want)
 build/
 *.zip
+
+# Auto-generated netlist (regenerable from .kicad_sch)
+*.net
+
+# Backup files KiCad creates on save
+*-cache.lib
+*.kicad_sch-bak
+
+# Schematic and PCB autosave files
+_autosave-*
