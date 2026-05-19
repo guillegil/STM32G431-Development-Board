@@ -3060,6 +3060,12 @@
 		(uuid "153f52ae-ccb2-4e41-8dd7-11ed533168fd")
 	)
 	(junction
+		(at 195.58 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d3af89e-ebcc-4cfa-9067-2c1657ca827e")
+	)
+	(junction
 		(at 114.3 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3106,12 +3112,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bddfa55e-c057-4a96-aea7-176c18a7ded5")
-	)
-	(junction
-		(at 195.58 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da35b9c9-42e7-404b-b247-8901d5260564")
 	)
 	(junction
 		(at 71.12 76.2)
@@ -3515,7 +3515,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 123.19) (xy 195.58 127)
+			(xy 195.58 123.19) (xy 195.58 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3905,7 +3905,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 134.62) (xy 195.58 139.7)
+			(xy 195.58 135.89) (xy 195.58 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4717,6 +4717,88 @@
 			(project "stm32g431_devboard"
 				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 195.58 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c7ad67f-b46d-4ce5-9c4d-114aaf147cfe")
+		(property "Reference" "C5"
+			(at 199.39 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 199.39 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 196.5452 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 195.58 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43c7cf73-fbb9-45e1-90f3-0976bb90025b")
+		)
+		(pin "2"
+			(uuid "b7f5f41d-cc9b-4c1e-bae8-0b1fbabe3540")
+		)
+		(instances
+			(project "stm32g431_devboard"
+				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5859,6 +5941,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 167.64 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a3de18a-f732-4f96-b938-ef26a6ebbb08")
+		(property "Reference" "C4"
+			(at 171.45 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 171.45 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 168.6052 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4af5b63-0b79-4f58-9ae6-3647c15a58bf")
+		)
+		(pin "2"
+			(uuid "df5beefe-d123-40d8-90c9-19dcae7c2913")
+		)
+		(instances
+			(project "stm32g431_devboard"
+				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 146.05 0)
 		(unit 1)
@@ -6242,88 +6406,6 @@
 			(project "stm32g431_devboard"
 				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 195.58 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94e89c0b-4a10-4a46-a29d-bcf9e8c2617e")
-		(property "Reference" "C5"
-			(at 199.39 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 199.39 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.5452 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 195.58 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad510374-6c87-4505-beb9-97299a6d1353")
-		)
-		(pin "2"
-			(uuid "e0a10b6e-7a3f-4a75-a37d-d500cba4c697")
-		)
-		(instances
-			(project "stm32g431_devboard"
-				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7324,88 +7406,6 @@
 			(project "stm32g431_devboard"
 				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 167.64 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddc03e53-97cd-414c-8717-14c592c8f3ba")
-		(property "Reference" "C4"
-			(at 171.45 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 171.45 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.6052 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3da272d1-891f-4126-81e7-0d682d8f34b2")
-		)
-		(pin "1"
-			(uuid "61dd9d07-f894-4c51-bd87-f91479a1a7d6")
-		)
-		(instances
-			(project "stm32g431_devboard"
-				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9"
-					(reference "C4")
 					(unit 1)
 				)
 			)

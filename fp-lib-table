@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "stm32g431_devboard") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/stm32g431_devboard.pretty") (options "") (descr ""))
+)
