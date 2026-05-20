@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v.0.1"
+      "sch_revision": "v.0.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -260,7 +260,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "net_not_bus_member|1104900|838200|87b98921-b940-4d5b-a648-f3d5e51b4614|f7b04f9d-7963-4a79-8944-349e23aaeea4|/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/a5e1f530-8956-4151-8f59-48f85f3d1b34||",
+        ""
+      ],
+      [
+        "net_not_bus_member|1104900|863600|45e93732-05e9-4358-b796-0339aa83f985|f7b04f9d-7963-4a79-8944-349e23aaeea4|/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/a5e1f530-8956-4151-8f59-48f85f3d1b34||",
+        ""
+      ],
+      [
+        "net_not_bus_member|1168400|1143000|48ed92cb-986a-450e-b54d-2eabeb00bf97|8067d9ba-453d-4940-8e59-6be35bc92902|/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/a5e1f530-8956-4151-8f59-48f85f3d1b34||",
+        ""
+      ],
+      [
+        "pin_to_pin|1168400|635000|128510c9-54c6-40f8-afce-672ccb02741c|57811722-671d-4f5b-808f-f55d44a75462|/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9|/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9|/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9",
+        ""
+      ],
+      [
+        "pin_to_pin|914400|1600200|57811722-671d-4f5b-808f-f55d44a75462|128510c9-54c6-40f8-afce-672ccb02741c|/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9|/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9|/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/3a530241-5ab1-49dc-9d97-391d8d961ce9",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -460,7 +481,7 @@
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
@@ -648,7 +669,7 @@
         "uuid": "9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d"
       }
     ],
-    "used_designators": "R11,C4-5",
+    "used_designators": "SW1-2,R1-10,U1-4,MCU1,J1-6,C_LSE1-2,D1-3,C1-12,#FLG1-5,Y1,FB1,#PWR1-47,#PWR52-53",
     "variants": []
   },
   "sheets": [

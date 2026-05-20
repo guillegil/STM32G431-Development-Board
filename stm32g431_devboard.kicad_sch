@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${PROJECT_NAME}, Guillermo Gil")
-		(rev "v.0.1")
+		(rev "v.0.2")
 	)
 	(lib_symbols)
 	(wire
@@ -29,6 +29,16 @@
 		)
 		(uuid "1cce7f75-360a-4dbd-9c98-703be7c67ab5")
 	)
+	(wire
+		(pts
+			(xy 88.9 77.47) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5b7594-da04-482d-9b09-90e045139e09")
+	)
 	(bus
 		(pts
 			(xy 88.9 69.85) (xy 121.92 69.85)
@@ -38,16 +48,6 @@
 			(type default)
 		)
 		(uuid "40109856-27bb-48d2-9c49-47ddf62595c8")
-	)
-	(bus
-		(pts
-			(xy 88.9 77.47) (xy 121.92 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44ecf639-3fec-427b-9eac-debb3202ff94")
 	)
 	(bus
 		(pts
@@ -147,16 +147,6 @@
 				(justify left)
 			)
 		)
-		(pin "PC[13..15]" bidirectional
-			(at 121.92 77.47 180)
-			(uuid "2108d3b7-04e3-45f1-b765-cc545a186b7b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PF[0..1]" bidirectional
 			(at 121.92 81.28 180)
 			(uuid "e5f37f21-9ca7-49d1-a17f-a0164f375bb9")
@@ -180,6 +170,16 @@
 		(pin "VREF_EXT_IN" output
 			(at 121.92 90.17 180)
 			(uuid "9fac1c50-5f47-49ec-b3a8-7ac28872f890")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PC13" input
+			(at 121.92 77.47 180)
+			(uuid "524e15f2-5bdd-408c-849b-949aa501621b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,16 +319,6 @@
 				(justify right)
 			)
 		)
-		(pin "PC[13..15]" bidirectional
-			(at 88.9 77.47 0)
-			(uuid "b3599351-9e79-40c3-a314-600f2f0b64ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB_DP" bidirectional
 			(at 88.9 113.03 0)
 			(uuid "313a6b8d-ba9b-4116-94cd-5cf02532c5a4")
@@ -372,6 +362,16 @@
 		(pin "VREF_EXT_IN" input
 			(at 88.9 90.17 0)
 			(uuid "abbe0afb-dee9-4fe2-b041-4a9d1aa7538a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC13" output
+			(at 88.9 77.47 0)
+			(uuid "57bb6cfc-f171-40fa-aeb4-fdf660ded3d5")
 			(effects
 				(font
 					(size 1.27 1.27)
