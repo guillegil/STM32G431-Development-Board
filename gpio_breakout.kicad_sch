@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "004a2392-6e4c-4e45-9e4c-197f352daca4")
 	(paper "A4")
+	(title_block
+		(title "${PROJECT_NAME}, Guillermo Gil")
+		(rev "v.0.1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
