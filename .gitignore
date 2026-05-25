@@ -25,3 +25,20 @@ build/
 
 # Schematic and PCB autosave files
 _autosave-*
+
+# Editor / tool local state
+.history/
+.claude/
+
+# Freerouting working files (regenerable from .kicad_pcb)
+freerouting.dsn
+temp-freerouting.dsn
+tmp*.rpt
+
+# JLCPCB side workspace (has its own .git, contains duplicated sources)
+jlcpcb/
+
+# Throwaway routing experiment projects
+step1_usb_diff.*
+stm32g431_devboard_auto.*
+stm32g431_devboard_routed.*
