@@ -1,0 +1,6 @@
+(version 1)
+
+
+(rule "USB-C connector internal clearance"
+   (condition "A.Reference == 'J2' && B.Reference == 'J2'")
+   (constraint clearance (min 0.1mm)))

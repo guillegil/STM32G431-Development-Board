@@ -233,7 +233,7 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_DM" bidirectional
+		(pin "USB_N" bidirectional
 			(at 121.92 110.49 180)
 			(uuid "9766e4a9-e42e-471b-b020-878e416a5190")
 			(effects
@@ -243,7 +243,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB_DP" bidirectional
+		(pin "USB_P" bidirectional
 			(at 121.92 113.03 180)
 			(uuid "9ef24e9f-525b-4875-be98-e692da5500dd")
 			(effects
@@ -319,7 +319,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DP" bidirectional
+		(pin "USB_P" bidirectional
 			(at 88.9 113.03 0)
 			(uuid "313a6b8d-ba9b-4116-94cd-5cf02532c5a4")
 			(effects
@@ -329,7 +329,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DM" bidirectional
+		(pin "USB_N" bidirectional
 			(at 88.9 110.49 0)
 			(uuid "ea643a79-5d5a-46c1-b677-2fd212ce244d")
 			(effects

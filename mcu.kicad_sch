@@ -627,6 +627,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers
 				(hide yes)
@@ -3337,16 +3525,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 133.35) (xy 260.35 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0674fecf-b009-42fe-a255-caf8926a1aab")
-	)
-	(wire
-		(pts
 			(xy 83.82 185.42) (xy 83.82 181.61)
 		)
 		(stroke
@@ -3467,6 +3645,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 127) (xy 237.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2127dc7c-835b-46c5-91b6-86bbf2003b17")
+	)
+	(wire
+		(pts
 			(xy 22.86 26.67) (xy 22.86 36.83)
 		)
 		(stroke
@@ -3544,16 +3732,6 @@
 			(type default)
 		)
 		(uuid "3686f491-378a-436b-b0e6-ffd1bbc3226a")
-	)
-	(wire
-		(pts
-			(xy 257.81 132.08) (xy 257.81 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a4c144-24cf-44a0-afe1-756d6069b4cb")
 	)
 	(wire
 		(pts
@@ -3744,6 +3922,16 @@
 			(type default)
 		)
 		(uuid "5b17a368-ae68-4007-a1d1-1d8b29fc9d41")
+	)
+	(wire
+		(pts
+			(xy 250.19 133.35) (xy 260.35 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eab0e9c-65ad-40bd-acb3-2af8116df21f")
 	)
 	(wire
 		(pts
@@ -4547,6 +4735,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 133.35) (xy 242.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce4bdf0-79da-4efd-a013-441240db7e87")
+	)
+	(wire
+		(pts
 			(xy 259.08 138.43) (xy 259.08 149.86)
 		)
 		(stroke
@@ -5097,7 +5295,7 @@
 		)
 		(uuid "2300220b-3a7c-4d77-b4b2-838179517eb4")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_N"
 		(shape bidirectional)
 		(at 215.9 91.44 0)
 		(effects
@@ -5152,7 +5350,7 @@
 		)
 		(uuid "98082843-c955-4336-8e31-aa8bca0f5416")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_P"
 		(shape bidirectional)
 		(at 215.9 93.98 0)
 		(effects
@@ -5406,7 +5604,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 257.81 132.08 0)
+		(at 237.49 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5417,7 +5615,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c84378f-0ba0-497b-81b0-e9273994893f")
 		(property "Reference" "#PWR046"
-			(at 257.81 135.89 0)
+			(at 237.49 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5626,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 257.81 127 0)
+			(at 237.49 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5438,7 +5636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 132.08 0)
+			(at 237.49 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5449,7 +5647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 132.08 0)
+			(at 237.49 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,7 +5658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 257.81 132.08 0)
+			(at 237.49 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6208,6 +6406,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 246.38 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7da19595-8278-41e3-8a1a-ca6d682c8d6e")
+		(property "Reference" "D5"
+			(at 246.38 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 246.38 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 246.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 246.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 246.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 246.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2902d75-57c3-4d7d-82f6-2975ff6e8066")
+		)
+		(pin "2"
+			(uuid "77b516a4-25ef-4a2e-9a6b-3abc11dc5719")
+		)
+		(instances
+			(project "stm32g431_devboard"
+				(path "/9df7c36b-7f78-4dc7-b3c3-09b2ad159e9d/a5e1f530-8956-4151-8f59-48f85f3d1b34"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 175.26 0)
 		(unit 1)
@@ -6865,7 +7165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_02x06"
 			(at 267.97 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6876,7 +7176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "stm32g431_devboard:PinHeader_1x06_P2.54mm_Vertical_Castellar"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD"
 			(at 265.43 138.43 0)
 			(hide yes)
 			(show_name no)
